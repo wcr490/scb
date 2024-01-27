@@ -2,7 +2,7 @@
   {
     "arguments": [
       "/usr/bin/gcc",
-      "-Wp,-MMD,/home/rm/work/udd/.czusb.o.d",
+      "-Wp,-MMD,/home/rm/work/bdd/.block_drv.o.d",
       "-nostdinc",
       "-I./arch/x86/include",
       "-I./arch/x86/include/generated",
@@ -106,22 +106,22 @@
       "-Wno-sign-compare",
       "-g",
       "-DMODULE",
-      "-DKBUILD_BASENAME=\"czusb\"",
-      "-DKBUILD_MODNAME=\"czusb\"",
-      "-D__KBUILD_MODNAME=kmod_czusb",
+      "-DKBUILD_BASENAME=\"block_drv\"",
+      "-DKBUILD_MODNAME=\"czblk\"",
+      "-D__KBUILD_MODNAME=kmod_czblk",
       "-c",
       "-o",
-      "/home/rm/work/udd/czusb.o",
-      "/home/rm/work/udd/czusb.c"
+      "/home/rm/work/bdd/block_drv.o",
+      "/home/rm/work/bdd/block_drv.c"
     ],
     "directory": "/usr/src/kernels/6.6.13-200.fc39.x86_64",
-    "file": "/home/rm/work/udd/czusb.c",
-    "output": "/home/rm/work/udd/czusb.o"
+    "file": "/home/rm/work/bdd/block_drv.c",
+    "output": "/home/rm/work/bdd/block_drv.o"
   },
   {
     "arguments": [
       "/usr/bin/gcc",
-      "-Wp,-MMD,/home/rm/work/udd/.czusb.mod.o.d",
+      "-Wp,-MMD,/home/rm/work/bdd/.czblk.mod.o.d",
       "-nostdinc",
       "-I./arch/x86/include",
       "-I./arch/x86/include/generated",
@@ -225,16 +225,16 @@
       "-Wno-sign-compare",
       "-g",
       "-DMODULE",
-      "-DKBUILD_BASENAME=\"czusb.mod\"",
-      "-DKBUILD_MODNAME=\"czusb\"",
-      "-D__KBUILD_MODNAME=kmod_czusb",
+      "-DKBUILD_BASENAME=\"czblk.mod\"",
+      "-DKBUILD_MODNAME=\"czblk\"",
+      "-D__KBUILD_MODNAME=kmod_czblk",
       "-c",
       "-o",
-      "/home/rm/work/udd/czusb.mod.o",
-      "/home/rm/work/udd/czusb.mod.c"
+      "/home/rm/work/bdd/czblk.mod.o",
+      "/home/rm/work/bdd/czblk.mod.c"
     ],
     "directory": "/usr/src/kernels/6.6.13-200.fc39.x86_64",
-    "file": "/home/rm/work/udd/czusb.mod.c",
-    "output": "/home/rm/work/udd/czusb.mod.o"
+    "file": "/home/rm/work/bdd/czblk.mod.c",
+    "output": "/home/rm/work/bdd/czblk.mod.o"
   }
 ]
