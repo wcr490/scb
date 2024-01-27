@@ -1,0 +1,1 @@
+savedcmd_/home/rm/work/udd/czusb.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/rm/work/udd/czusb.ko /home/rm/work/udd/czusb.o /home/rm/work/udd/czusb.mod.o;  make -f ./arch/x86/Makefile.postlink /home/rm/work/udd/czusb.ko
