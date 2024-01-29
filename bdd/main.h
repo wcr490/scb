@@ -3,6 +3,7 @@
 #endif
 
 #include "linux/export.h"
+#include <linux/blk-mq.h>
 #include <linux/blkdev.h>
 #include <linux/device.h>
 #include <linux/fs.h>

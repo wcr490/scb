@@ -1,0 +1,1 @@
+savedcmd_/home/rm/work/scb/udd/Module.symvers :=  scripts/mod/modpost -M        -o /home/rm/work/scb/udd/Module.symvers -T /home/rm/work/scb/udd/modules.order -i Module.symvers -e -i /home/rm/work/bdd/Module.symvers

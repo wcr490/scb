@@ -1,11 +1,15 @@
 #include "linux/module.h"
+#include "linux/printk.h"
 #include "linux/usb.h"
 MODULE_LICENSE("GPL");
 extern int block_drv_wake(struct usb_device *usbdev);
 extern void block_drv_shutdown(void);
 static int cz_probe(struct usb_interface *interface,
                     const struct usb_device_id *id) {
-  block_drv_wake(interface_to_usbdev(interface));
+  int res = block_drv_wake(interface_to_usbdev(interface));
+  if (res < 0) {
+    printk(KERN_INFO "fail to wake");
+  }
   printk(KERN_INFO "cz880 inserts\n");
   return 0;
 }
